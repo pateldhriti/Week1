@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>This is a Square Calculator:</title>
+    <script defer src=" script.js"></script>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin-top: 50px;
+      }
+      input,
+      button {
+        font-size: 18px;
+        padding: 10px;
+        margin: 10px;
+      }
+      p {
+        font-size: 20px;
+        font-weight: bold;
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>This is a Square Calculator:</h2>
+    <input type="number" id="numberInput" placeholder="Enter a number:" />
+    <button onclick="calculateSquare()">Calculate Square</button>
+    <p id="result"></p>
+  </body>
+</html>
